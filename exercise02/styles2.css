@@ -1,0 +1,55 @@
+* {
+}
+body {
+  font-weight: 800;
+  color: #444;
+  line-height: 1.5;
+  font-family: sans-serif;
+}
+
+h2,
+h3,
+h4 {
+  text-transform: uppercase;
+}
+
+h2 {
+  text-align: center;
+  background-color: #f7f7f7;
+  font-weight: bold;
+}
+h4 {
+  font-weight: 100;
+}
+article {
+  border: 2px solid black;
+}
+
+.price {
+  font-weight: bold;
+  font-size: 20px;
+}
+a {
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.product-details {
+  list-style-type: square;
+}
+
+button {
+  color: white;
+  background-color: black;
+  text-transform: uppercase;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+button:hover {
+  color: black;
+  background-color: white;
+}
