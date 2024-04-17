@@ -26,14 +26,12 @@ main {
 article {
   padding-top: 20px;
   display: flex;
-  align-content: center;
-  justify-content: flex-start;
   margin-bottom: 10px;
 }
 
 section {
-  flex-basis: 275px;
   padding-left: 20px;
+  flex: 1;
 }
 
 button {
@@ -55,13 +53,22 @@ h3::after {
   font-weight: bold;
 }
 
-.color-container {
-  list-style: none;
+a {
+  color: black;
+  margin-bottom: 20px;
 }
 
-.color-container li {
-  display: inline-block;
-  padding: 5px 2px;
+a:hover {
+  text-decoration: none;
+}
+
+.color-container {
+  display: flex;
+  gap: 5px;
+}
+
+.color-container > * {
+  padding: 5px 5px;
 }
 
 .color-box {
@@ -77,10 +84,10 @@ h3::after {
 }
 .p-summary-header {
   display: flex;
-  align-items: end;
-  justify-content: flex-start;
-  gap: 70px;
+  align-items: center;
+  justify-content: space-between;
   margin-bottom: 20px;
+  padding-right: 30px;
 }
 
 .product-summary {
@@ -92,12 +99,16 @@ h3::after {
 }
 
 .detail-list {
-  padding: 10px;
+  padding-left: 20px;
+}
+
+.detail-list > li {
+  padding: 4px;
   list-style-type: square;
 }
 
 .yellow {
-  background-color: yellow;
+  background-color: firebrick;
 }
 
 .green {
